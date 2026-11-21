@@ -1,0 +1,8 @@
+{
+  "nombre": "Producto de prueba",
+  "descripcion": "Producto creado para probar permisos de admin",
+  "img": "https://ejemplo.com/foto.jpg",
+  "precio": 5000,
+  "stock": 10,
+  "categoria": "Tortas"
+}
