@@ -7,5 +7,6 @@ urlpatterns = [
     path('api/', include('productos.urls')),
     path('api/contacto/', include('contacto.urls')),
     path('api/auth/login/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-path('api/auth/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    path('api/auth/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    path('api/auth/', include('usuarios.urls')),
 ]
