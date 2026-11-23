@@ -12,3 +12,6 @@ urlpatterns = [
     path('api/auth/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('api/auth/', include('usuarios.urls')),
 ]
+
+handler404 = 'core.exceptions.error_404'
+handler500 = 'core.exceptions.error_500'
