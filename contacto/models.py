@@ -5,6 +5,7 @@ class Mensaje(models.Model):
     correo = models.EmailField()
     mensaje = models.TextField()
     creado = models.DateTimeField(auto_now_add=True)
+    leido = models.BooleanField(default=False)
 
     class Meta:
         ordering = ['-creado']
