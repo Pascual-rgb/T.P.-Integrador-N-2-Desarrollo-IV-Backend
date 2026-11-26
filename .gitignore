@@ -7,3 +7,4 @@ db.sqlite3
 .vscode/
 backup.sql
 media/
+build.sh
